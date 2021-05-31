@@ -18,9 +18,6 @@ public class NumToWords {
 			System.out.println ( "The value of i is:- " + i );
 		}
 
-		
-		
-				
 		int i = 2;
 		String numText ;
 		switch(i) {

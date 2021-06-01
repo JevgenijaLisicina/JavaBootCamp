@@ -1,17 +1,10 @@
-/**
- * 
- */
+
 package sef.module3.activity;
 
-/**
- * @author 
- *
- */
+
 public class NumToWords {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		
 		for ( int i = 1; i < 11; i++ ) {
@@ -37,6 +30,10 @@ public class NumToWords {
 			numText = "FIVE";
 			break;
 			// complete the code.
+			case 6:
+				numText = "SIX";
+				break;
+
 		default:
 			numText = "NUMBER " + i;
 		}

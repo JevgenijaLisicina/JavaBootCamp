@@ -17,6 +17,7 @@ public class Student_P extends Person_P {
 	
 	// getter for int grade
 	public int getGrade() {
+
 		return grade;
 	}
 	
@@ -42,6 +43,7 @@ public class Student_P extends Person_P {
 	
 	// This method is overridden from Person class
 	public void announce(){
+
 		System.out.println("I am a Student");
 	}
 		

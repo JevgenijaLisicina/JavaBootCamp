@@ -37,7 +37,7 @@ public class Employee_A extends Person_A{
 	}
 	
 	public void setName(String name){
-		this.name="<E>"+name;
+		this.name="" +name;
 	}
 	
 	

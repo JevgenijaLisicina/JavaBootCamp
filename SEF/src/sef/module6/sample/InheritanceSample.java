@@ -3,7 +3,7 @@ package sef.module6.sample;
 public class InheritanceSample {
 
 	
-	public static void main(String arg[]){
+	public static void main(String args []){
 		
 		Person_I p = new Person_I();
 		p.setName("John Doe");

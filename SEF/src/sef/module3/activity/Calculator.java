@@ -1,15 +1,8 @@
-/**
- *
- */
+
 package sef.module3.activity;
 
 
 
-
-/**
- * @author
- *
- */
 public class Calculator {
 
 
@@ -21,14 +14,11 @@ public class Calculator {
 	int y = 2;
 
 	int[] nums = {1, 2, 3, 4};
-//
-//	System.out.println("Addition - " + add(x,y));
-//	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
-//	System.out.println("Multiply - " + multiply(nums));
+
+    System.out.println("Addition - " + add(x,y));
+	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
+	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));
-
-
-
 	}
 
 

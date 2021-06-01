@@ -10,7 +10,9 @@ public class Calculator {
 	public static final String CALC_TYPE_BASIC = "Basic";
 
 	// Default constructor
-	public Calculator() {}
+	public Calculator() {
+
+	}
 
 	// Parameterized constructor
 	public Calculator(String calculatorType) {

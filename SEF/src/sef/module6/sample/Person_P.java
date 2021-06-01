@@ -23,21 +23,25 @@ public class Person_P {
 	
 	// getter for String name
 	public String getName() {
+
 		return name;
 	}
 	
 	// setter for String name
 	public void setName(String name) {
+
 		this.name = name;
 	}
 
 	// getter for int age
 	public int getAge() {
+
 		return age;
 	}
 
 	// setter for int age
 	public void setAge(int age) {
+
 		this.age = age;
 	}	
 	
@@ -48,6 +52,7 @@ public class Person_P {
 	
 	// This method is overridden in Student class
 	public void announce(){
+
 		System.out.println("I am a Person");
 	}
 	

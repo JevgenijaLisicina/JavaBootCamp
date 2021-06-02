@@ -11,17 +11,22 @@ public static void main(String[] args) {
 
 void catchMeIfYouCan()
 {
-	int [] arr={0,1,2,3,4,5,6,7,8,9};
-	
-	for(int i=0;i<=10;i++)
-	{
-		System.out.println(arr[i]);
+	try {                                        // try block here
+		int[] arr = {0, 1, 2, 5, 32};
+
+		for (int i = 0; i <= 10; i++) {
+			System.out.println(arr[i]);
+		}
+
 	}
-	
-	
-	
-	System.out.println("This should get printed even if there is an exception");
-	
+	catch (Exception e){
+		System.out.println("Catch block is here" + 100/0); //need to add exception inside catch block: Exception inside Exception
+
+	}
+finally {
+		System.out.println("Finally block is here");
+		System.out.println("This should get printed even if there is an exception");
+	}
 }
 
 }
